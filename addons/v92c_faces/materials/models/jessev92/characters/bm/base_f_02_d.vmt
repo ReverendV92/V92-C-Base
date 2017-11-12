@@ -1,0 +1,37 @@
+
+//	Female_02, Black Mesa: Source
+//	Texture @ BM:S
+//	Shaders @ Reverend V92
+//	Update: 2017/03/30
+
+vertexlitgeneric
+{
+
+	$baseTexture models/jessev92/characters/bm/base_f_02_d
+	$bumpmap models/jessev92/characters/bm/Base_F_N_02
+	$lightwarptexture models/jessev92/characters/bm/Base_M_caucasian_wrp
+
+	$phong   1
+	$phongboost  2
+	$phongexponent  10
+	$phongtint  "[ 0.85 0.85 1 ]"
+	$phongfresnelranges "[ 0.2 0.5 5 ]"
+	$phongexponenttexture models/jessev92/characters/bm/femaleface_exponent
+	
+	$rimlight 1
+	$rimlightexponent 80
+	$rimlightboost 0.5
+	
+	$surfaceprop flesh
+	$ambientocclusion  1
+	$halflambert 1
+	$nocull  1
+	$nodecal 1
+	$diffuseexp 1.5
+
+	$detail  models/jessev92/characters/bm/skin_detail
+	$detailscale 8
+	$detailblendfactor 0.7
+	$detailblendmode 0
+
+}

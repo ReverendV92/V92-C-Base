@@ -1,0 +1,90 @@
+
+
+//	Model, Dynamic Roleplay
+//	Character, Police
+//	Police by V92
+//	Creation Date: 2017/01/02
+//	Update: 2017/05/21
+
+VertexLitGeneric
+{
+
+	//------------------------------
+	//	Texture Paths
+	//------------------------------
+	
+	// The $basetexture VMT command defines an albedo texture.
+	$baseTexture models/jessev92/characters/oc/sheriff/sheriff_upper4_d
+	// The $bumpmap VMT parameter specifies a texture that will provide three-dimensional lighting information for a material.
+	$bumpmap models/jessev92/characters/oc/sheriff/sheriff_upper_b
+    // Forces DirectX 8 cards to render the bump map. They normally don't for performance reasons. 
+	// $forcebump 1
+
+	$lightwarptexture dev/identitylightwarp
+	
+	//------------------------------
+	// Model Parametres
+	//------------------------------
+	
+	// The material parameter $model marks a material as for use on a model rather than a brush
+	$model 1
+	// Implements Half Lambert lighting, which wraps lighting further around a model to prevent it losing definition. Requires VertexLitGeneric
+	$halflambert 1 
+	// Surface property
+	$surfaceprop flesh
+
+	//------------------------------
+	// Ambient Occlusion Parametres
+	//------------------------------
+	
+	// Disable/Enable Ambient Occlusion
+	$AmbientOcclusion 1
+	// Replacing n with a number of the color (RGB format) Default: "[ 255 255 255 ]"
+	$AmbientOcclColor "[ 255 255 255 ]"
+	// Filename of the ambient occlusion texture to use 
+	//$AmbientOcclusionTexture models/jessev92/
+
+	//------------------------------
+	// Phong Parametres
+	//------------------------------
+
+	// To enable Phong
+	$phong 1
+    // The numeric value overrides an exponent mask if present. 
+	$phongexponent 4
+    // Phong brightness factor. Larger values create a more intense highlight, useful for surfaces like metal and glass. 
+	$phongboost 0.05
+    // Phong Fresnel ranges. Default is "[ 0 0.5 1 ]"
+	$phongfresnelranges "[ 0.1 0.2 0.5 ]"
+
+	//------------------------------
+	// Rim Lighting Parametres
+	//------------------------------
+
+	// To Disable/Enable Rim Lighting (requires phong)
+	$rimlight 1
+	// Exponent of rim lighting
+	$rimlightexponent 4
+	// Boost of rim lighting
+	$rimlightboost 1
+
+	//------------------------------
+	// Detail Map Parametres
+	//------------------------------
+	
+	// Detail texture to overlay
+	$detail detail/detailash001a
+	// Scale of the detail texture over the diffuse
+	$detailscale 16
+	// Visibility of the detail texture
+	$detailblendfactor 0.25
+	// The render mode of the detail texture
+	$detailblendmode 0
+	
+	//------------------------------
+	// % Parametres
+	//------------------------------
+	
+	%keywords "v92, dynamic, roleplay, dynrp, officer, police, model"
+	
+}

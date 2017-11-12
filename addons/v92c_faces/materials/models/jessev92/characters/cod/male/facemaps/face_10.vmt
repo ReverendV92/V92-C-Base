@@ -1,0 +1,28 @@
+
+vertexlitgeneric
+{
+
+	$basetexture models/jessev92/characters/cod/male/facemaps/face_10
+	$bumpmap models/jessev92/characters/cod/male/facemaps/face_b
+	$lightwarptexture dev/identitylightwarp
+
+	$halflambert 1
+	$ambientocclusion 1
+
+	$nocull 1
+	$nodecal 1
+	$diffuseexp 1.5
+
+	$phong 1
+	$phongboost 1
+	$phongexponent 10
+	$phongexponenttexture models/jessev92/characters/cod/male/facemaps/face_x
+	$phongtint "[ 0.85 0.85 1 ]"
+	$phongfresnelranges "[ 0.2 0.5 5 ]"
+
+	$detail models/jessev92/detail/skin2
+	$detailscale 30
+	$detailblendfactor 0.45
+	$detailblendmode 0
+
+}

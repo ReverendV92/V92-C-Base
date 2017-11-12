@@ -1,0 +1,26 @@
+
+//	Cigar, Black Mesa: Source
+//	Texture @ BM:S
+//	Shaders @ Reverend V92
+//	Update: 2017/03/30
+
+VertexLitGeneric
+{
+
+	$basetexture models/jessev92/characters/bm/cigar_d
+	$bumpmap dev/bump_normal
+
+	$halflambert 1
+	$ambientocclusion 1
+	$selfillum 1
+
+	$phong 1
+	$phongboost 1.25
+	$phongfresnelranges "[ 0.05 0.5 1 ]"
+
+	$detail detail/wood_detail_01
+	$detailscale 4
+	$detailblendfactor 0.7
+	$detailblendmode 0
+
+}

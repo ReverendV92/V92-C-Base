@@ -1,0 +1,21 @@
+$texturegroup skinfamilies
+{
+
+	{ "suit_shirt" }
+	{ "suit_shirt2" }
+	{ "suit_shirt3" }
+	{ "suit_shirt4" }
+	{ "suit_shirt5" }
+	{ "suit_shirt6" }
+	{ "suit_shirt7" }
+	{ "suit_shirt8" }
+	{ "suit_shirt9" }
+	{ "suit_shirt10" }
+	{ "suit_shirt11" }
+	{ "suit_shirt12" }
+	{ "suit_shirt13" }
+	{ "suit_shirt14" }
+	{ "suit_shirt15" }
+	{ "suit_shirt16" }
+
+}

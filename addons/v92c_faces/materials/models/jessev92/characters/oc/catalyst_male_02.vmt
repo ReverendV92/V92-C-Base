@@ -1,0 +1,16 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 	"models/jessev92/characters/oc/catalyst_male_02_d"
+	"$bumpmap" "models/jessev92/characters/oc/catalyst_male_b"
+	"$model" 1
+	"$phong" "1"
+	"$phongexponent" "10"
+	"$phongboost" "0.01"
+	"$phongfresnelranges" "[0.1 2.1 5.1]"
+	"$phongalbedotint" "1"
+
+// Rim lighting parameters
+	"$rimlight" "1"												// To enable rim lighting (requires phong)
+	"$rimlightexponent" "5"										// Exponent for phong component of rim lighting	
+	"$rimlightboost" "0.1"		
+}

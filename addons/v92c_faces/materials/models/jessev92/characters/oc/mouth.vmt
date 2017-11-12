@@ -1,0 +1,7 @@
+vertexlitgeneric
+{
+$baseTexture "models/jessev92/characters/oc/mouth"
+$bumpmap "models/jessev92/characters/oc/mouth_n"
+
+
+}

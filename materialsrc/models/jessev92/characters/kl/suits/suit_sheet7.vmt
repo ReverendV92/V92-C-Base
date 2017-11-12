@@ -1,0 +1,12 @@
+
+VertexLitGeneric
+{
+
+	$baseTexture models/jessev92/characters/kl/suits/suit_sheet7
+	$bumpmap models/jessev92/characters/kl/suits/suit_sheet_b
+	$lightwarptexture dev/identitylightwarp
+	
+	$halflambert 1
+	$ambientocclusion 1
+
+}

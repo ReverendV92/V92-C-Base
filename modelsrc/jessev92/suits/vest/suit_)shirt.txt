@@ -1,0 +1,43 @@
+$texturegroup skinfamilies
+{
+
+	{ "suit_shirt" }
+	{ "suit_shirt2" }
+	{ "suit_shirt3" }
+	{ "suit_shirt4" }
+	{ "suit_shirt5" }
+	{ "suit_shirt6" }
+	{ "suit_shirt7" }
+	{ "suit_shirt8" }
+	{ "suit_shirt9" }
+	{ "suit_shirt10" }
+	{ "suit_shirt11" }
+	{ "suit_shirt12" }
+	{ "suit_shirt13" }
+	{ "suit_shirt14" }
+	{ "suit_shirt15" }
+	{ "suit_shirt16" }
+
+}
+
+$texturegroup skinfamilies
+{
+
+	{ "suit_sheet" }
+	{ "suit_sheet2" }
+	{ "suit_sheet3" }
+	{ "suit_sheet4" }
+	{ "suit_sheet5" }
+	{ "suit_sheet6" }
+	{ "suit_sheet7" }
+	{ "suit_sheet8" }
+	{ "suit_sheet9" }
+	{ "suit_sheet10" }
+	{ "suit_sheet11" }
+	{ "suit_sheet12" }
+	{ "suit_sheet13" }
+	{ "suit_sheet14" }
+	{ "suit_sheet15" }
+	{ "suit_sheet16" }
+
+}

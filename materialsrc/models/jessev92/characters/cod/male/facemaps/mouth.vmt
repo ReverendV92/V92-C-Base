@@ -1,0 +1,12 @@
+
+vertexlitgeneric
+{
+
+	$basetexture models/jessev92/characters/cod/male/facemaps/mouth
+	$bumpmap models/jessev92/characters/cod/male/facemaps/mouth_b
+	$lightwarptexture dev/identitylightwarp
+
+	$halflambert 1
+	$ambientocclusion 1
+
+}

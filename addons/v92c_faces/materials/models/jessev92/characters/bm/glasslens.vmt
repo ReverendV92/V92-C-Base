@@ -1,0 +1,23 @@
+
+//	Kleiner Glasses, Lens, Black Mesa: Source
+//	Texture @ BM:S
+//	Shaders @ Reverend V92
+//	Update: 2017/03/30
+
+UnlitGeneric
+{
+
+	$basetexture models/Kleiner/glasslens
+	$bumpmap dev/bump_normal
+
+	$halflambert 1
+	$ambientocclusion	1
+	$additive 1
+	$translucent 1
+
+	$detail detail/detaildirt001a
+	$detailscale        1
+	$detailblendfactor  0.7
+	$detailblendmode	0
+
+}

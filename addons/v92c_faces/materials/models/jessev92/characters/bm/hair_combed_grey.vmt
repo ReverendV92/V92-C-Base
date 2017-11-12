@@ -1,0 +1,25 @@
+
+//	Hair, Combed, Grey, Black Mesa: Source
+//	Texture @ BM:S
+//	Shaders @ Reverend V92
+//	Update: 2017/03/30
+
+"VertexLitGeneric"
+{
+
+	$baseTexture models/jessev92/characters/bm/hair_combed_grey
+	$bumpmap dev/bump_normal
+	
+	$halflambert 1
+	$ambientocclusion 1
+
+	$nodecal 1
+	$translucent 1
+	$surfaceprop flesh
+
+	$phong 1
+	$phongexponent 33
+	$phongboost 0.25
+	$phongfresnelranges "[ 0.05 0.5 1 ]"
+
+}

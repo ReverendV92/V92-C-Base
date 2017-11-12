@@ -1,0 +1,17 @@
+
+VertexLitGeneric
+{
+
+	$basetexture models/jessev92/characters/kl/hands/arms_white
+	$bumpmap models/jessev92/characters/kl/hands/arms_b
+
+	$halflambert 1
+	$ambientocclusion 1
+	
+	$phong 1
+	$phongexponent 10
+	$phongboost 0.007
+	$phongfresnelranges "[ 0.3 1 7 ]"
+	$phongalbedotint 1
+	
+}

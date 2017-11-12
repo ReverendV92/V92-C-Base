@@ -1,0 +1,17 @@
+
+vertexlitgeneric
+{
+
+	$basetexture models/jessev92/characters/hl2/male/facemaps/joe_facemap
+	$bumpmap models/jessev92/characters/hl2/male/facemaps/joe_facemap_b
+	$lightwarptexture dev/identitylightwarp
+	
+	$halflambert 1
+	$ambientocclusion 1
+
+	$phong 1
+	$phongexponent 5
+	$phongboost 2
+	$phongfresnelranges "[ 0.1 0.2 1 ]"
+
+}

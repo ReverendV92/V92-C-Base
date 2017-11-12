@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/jessev92/characters/oc/erovago"
+	"$surfaceprop" "metal"
+	"$envmap" "env_cubemap"
+}

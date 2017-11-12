@@ -1,0 +1,31 @@
+
+//	Kleiner Glasses, Side, Black Mesa: Source
+//	Texture @ BM:S
+//	Shaders @ Reverend V92
+//	Update: 2017/03/30
+
+VertexLitGeneric
+{
+
+	$basetexture models/Kleiner/glassesside_walter
+	$bumpmap dev/bump_normal
+
+	$halflambert 1
+	$ambientocclusion 1
+	$additive 0
+	$translucent 1
+
+	$phong 1
+	$phongboost 0.5
+	$phongfresnelranges "[ 0.05 0.5 1 ]"
+
+	$rimlight 1
+	$rimlightexponent 80
+	$rimlightboost 1
+
+	$detail detail/detaildirt001a
+	$detailscale 1
+	$detailblendfactor  0.7
+	$detailblendmode 0
+
+}

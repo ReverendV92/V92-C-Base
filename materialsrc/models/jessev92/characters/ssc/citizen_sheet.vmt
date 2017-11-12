@@ -1,0 +1,16 @@
+
+//	Short-Sleeved Citizen, Unknown
+//	Texture @ ???
+//	Shaders @ Reverend V92
+//	Update: 2017/03/30
+
+vertexlitgeneric
+{
+
+	$baseTexture models/jessev92/characters/ssc/citizen_sheet_d
+	$bumpmap models/jessev92/characters/ssc/citizen_sheet_b
+	
+	$ambientocclusion	1
+	$halflambert 1
+
+}

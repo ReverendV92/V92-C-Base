@@ -1,0 +1,19 @@
+
+//	Teeth, Black Mesa: Source
+//	Texture @ BM:S
+//	Shaders @ Reverend V92
+//	Update: 2017/03/30
+
+Teeth
+{
+
+	$baseTexture models/jessev92/characters/bm/base_m_d
+	$bumpmap models/jessev92/characters/bm/base_m_n
+
+	$clientshader MouthShader
+	
+	$nocull 1
+	$halflambert 1
+	$ambientocclusion 1
+	
+}

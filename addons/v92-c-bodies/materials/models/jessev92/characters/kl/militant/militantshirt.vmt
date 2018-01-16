@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 	"Models/NewMFC/Militantshirt"
+	"$bumpmap" "Models/NewMFC/Militantshirt_n"
+	//"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1
+	"$envmapcontrast" 1
+	"$surfaceprop" "flesh"
+        "$nocull" 1
+}

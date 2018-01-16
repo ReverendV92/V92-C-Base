@@ -1,0 +1,22 @@
+
+vertexlitgeneric
+{
+
+	$basetexture models/jessev92/characters/mgo/gear/foot_eep
+	$bumpmap models/jessev92/characters/mgo/gear/foot_eep_nm
+	$lightwarptexture dev/identitylightwarp
+	
+	$halflambert 1
+	$ambientocclusion 1
+	
+	$nocull 1
+	// $translucent 1
+	
+	$phong 1
+	$phongboost 0.05
+	$phongexponent 5
+ 	$phongexponenttexture models/jessev92/characters/mgo/gear/foot_eep_nm
+	$phongfresnelranges "[ 0.15 0.5 1.0 ]"
+	$phongalbedotint 1
+	
+}

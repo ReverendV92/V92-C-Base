@@ -1,0 +1,35 @@
+
+VertexLitGeneric
+{
+
+	$baseTexture			models/jessev92/characters/kl/swat/SWAT_body_proxy
+	$bumpmap				dev/bump_normal
+	$lightwarptexture		dev/identitylightwarp
+
+	$halflambert 			1
+	$ambientocclusion		1
+	$nocull					1
+
+	$phong					1
+	$phongboost				0.1
+	$phongfresnelranges		"[ 0.04 0.4 1 ]"
+
+	$blendtintbybasealpha	1		// alpha channel of $basetexture: color mask.
+ 	$blendtintcoloroverbase	0		// blend mode. anything =/= 0 is ugly!
+	
+	$color2 "{ 50 50 50 }"
+	
+	Proxies
+	{
+		PlayerColor
+		{
+			resultVar	$color2 // pass the player color value to Gmod
+			default		$color2 // unused for now.
+		}
+		Clamp // clamp the chosen color between 1% and 125% (usually)
+		{
+			srcVar1 "$color2"
+			resultVar "$color2"
+		}
+	}
+}

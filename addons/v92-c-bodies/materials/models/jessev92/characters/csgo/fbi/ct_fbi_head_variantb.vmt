@@ -1,0 +1,27 @@
+
+vertexlitgeneric
+{
+
+	$basetexture models/jessev92/characters/csgo/fbi/ct_fbi_head_variantb
+	$bumpmap models/jessev92/characters/csgo/fbi/ct_fbi_head_variantb_b
+	$lightwarptexture dev/identitylightwarp
+
+	$halflambert 1
+	$ambientocclusion 1
+
+	// $nodecal 1
+
+	$phong 1
+	$phongboost 0.5
+	$phongalbedoboost 150
+	$phongalbedotint 1
+	$phongfresnelranges "[ 0.2 0.2 1 ]"
+	// $phongdisablehalflambert 1
+	$phongexponenttexture models/jessev92/characters/csgo/fbi/ct_fbi_head_variantb_x
+
+	$rimlight 1
+	$rimlightexponent 5
+	$rimlightboost 1.0
+	$rimmask 1
+
+}

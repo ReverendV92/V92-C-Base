@@ -1,0 +1,25 @@
+
+vertexlitgeneric
+{
+
+	$basetexture models/jessev92/characters/fo4/minutemen/preston/watmm/prestonhat_d
+	$bumpmap models/jessev92/characters/fo4/minutemen/preston/watmm/prestonhat_b
+	$lightwarptexture dev/identitylightwarp
+
+	$halflambert 1
+	$ambientocclusion 1
+	$ambientocclusiontexture models/jessev92/characters/fo4/minutemen/preston/watmm/prestonhat_ao
+	$nocull 1
+
+	$phong 1
+	$phongexponenttexture models/jessev92/characters/fo4/minutemen/preston/watmm/prestonhat_x
+	$phongexponent 30
+	$phongboost 1
+	$phongfresnelranges "[ 0.1 2.1 5.1 ]"
+	$phongalbedotint 1
+
+	$rimlight 0
+	$rimlightexponent 80
+	$rimlightboost 0.1
+
+}

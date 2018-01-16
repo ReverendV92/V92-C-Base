@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\NewMFC/vietnamsoldier"
+	"$bumpmap" "models\NewMFC/vietnamsoldier_normal"
+ 	"$phongexponenttexture" "models/NewMFC/Vietnamsoldier_normal"
+	"$phongfresnelranges" "[0.15 0.5 1.0]"
+	"$phongexponent" "5"
+	"$phongalbedotint" 1
+	"$phong" "1"
+	"$phongboost" "0.10"
+}

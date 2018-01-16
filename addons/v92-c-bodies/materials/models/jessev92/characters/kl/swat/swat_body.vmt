@@ -1,0 +1,17 @@
+
+vertexlitgeneric
+{
+
+	$basetexture			models/jessev92/characters/kl/swat/swat_body
+	$bumpmap				dev/bump_normal
+	$lightwarptexture		dev/identitylightwarp
+
+	$halflambert 			1
+	$ambientocclusion		1
+	$nocull					1
+	
+	$phong					1
+	$phongboost				0.1
+	$phongfresnelranges		"[ 0.04 0.4 1 ]"
+
+}

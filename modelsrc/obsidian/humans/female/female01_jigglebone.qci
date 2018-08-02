@@ -1,0 +1,80 @@
+
+$jigglebone "ponytail1"
+{
+	is_flexible
+	{
+		length 5
+		tip_mass 5
+		pitch_stiffness 3
+		pitch_damping 3
+		yaw_stiffness 3
+		yaw_damping 3
+		along_stiffness 10
+		along_damping 0
+		angle_constraint 10
+	}
+}
+
+$jigglebone "ponytail2"
+{
+	is_flexible
+	{
+		length 5
+		tip_mass 5
+		pitch_stiffness 3
+		pitch_damping 3
+		yaw_stiffness 3
+		yaw_damping 3
+		along_stiffness 10
+		along_damping 0
+		angle_constraint 10
+	}
+}
+
+$jigglebone "ponytail3"
+{
+	is_flexible
+	{
+		length 5
+		tip_mass 5
+		pitch_stiffness 3
+		pitch_damping 3
+		yaw_stiffness 3
+		yaw_damping 3
+		along_stiffness 10
+		along_damping 0
+		angle_constraint 10
+	}
+}
+
+$jigglebone "ponytail4"
+{
+	is_flexible
+	{
+		length 5
+		tip_mass 5
+		pitch_stiffness 3
+		pitch_damping 3
+		yaw_stiffness 3
+		yaw_damping 3
+		along_stiffness 10
+		along_damping 0
+		angle_constraint 10
+	}
+}
+
+$jigglebone "ponytail5"
+{
+	is_flexible
+	{
+		length 5
+		tip_mass 5
+		pitch_stiffness 3
+		pitch_damping 3
+		yaw_stiffness 3
+		yaw_damping 3
+		along_stiffness 10
+		along_damping 0
+		angle_constraint 10
+	}
+}

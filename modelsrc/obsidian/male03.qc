@@ -1,8 +1,9 @@
 
-$modelname player/citizen/male01
+$modelname player/male03
 
-$model Van male_01_reference {
-$include "standardflex_xsi_01.qci"
+$model Joe base_male/heads/male_03_reference {
+	$include "base_male/heads/standardflex_xsi_03.qci"
+}
 
 $bodygroup Torso
 {
@@ -49,40 +50,40 @@ $bodygroup "Hand - Right"
 $bodygroup Headwear
 {
 	blank
-	studio base_male/headwear/beanie_01_blue
-	studio base_male/headwear/beanie_01_green
+	studio base_male/headwear/beanie_03_blue
+	studio base_male/headwear/beanie_03_green
 }
 
 $bodygroup Eyewear
 {
 	blank
-	studio base_male/eyewear/male_01_glasses
+	studio base_male/eyewear/male_03_glasses
 }
 
 $include "humans/common.qci"
-$include "humans/male/ragdoll_flexy.qci"
+$include "humans/male/ragdoll.qci"
 $include "humans/male/hitbox.qci"
 // $include "humans/standardhierarchy.qci"
 // $include "humans/standardikchains.qci"
 // $include "humans/male/commonbones.qci"
-$include "humans/male/anims_obsidian_male.qci"
-$include "humans/male/optimization_male.qci"
-$proceduralbones "humans/male.vrd"
+$include "humans/male/anims_obsidian.qci"
+$include "humans/male/optimization.qci"
+$proceduralbones "humans/male/male.vrd"
 
 $texturegroup skinfamilies
 {
-	{ "van_facemap" , "eyeball_l" , "eyeball_r" , "hand_black" , "hand_black_glove"}
-	{ "van_facemap" , "eyeball_l_blue" , "eyeball_r_blue" , "hand_black" , "hand_black_glove"}
-	{ "van_facemap" , "eyeball_l_green" , "eyeball_r_green" , "hand_black" , "hand_black_glove"}
-	{ "van_facemap2" , "eyeball_l" , "eyeball_r" , "hand_black" , "hand_black_glove"}
-	{ "van_facemap2" , "eyeball_l_blue" , "eyeball_r_blue" , "hand_black" , "hand_black_glove"}
-	{ "van_facemap2" , "eyeball_l_green" , "eyeball_r_green" , "hand_black" , "hand_black_glove"}
-	{ "van_facemap3" , "eyeball_l" , "eyeball_r" , "hand_black" , "hand_black_glove"}
-	{ "van_facemap3" , "eyeball_l_blue" , "eyeball_r_blue" , "hand_black" , "hand_black_glove"}
-	{ "van_facemap3" , "eyeball_l_green" , "eyeball_r_green" , "hand_black" , "hand_black_glove"}
-	{ "van_facemap4" , "eyeball_l" , "eyeball_r" , "hand_black" , "hand_black_glove"}
-	{ "van_facemap4" , "eyeball_l_blue" , "eyeball_r_blue" , "hand_black" , "hand_black_glove"}
-	{ "van_facemap4" , "eyeball_l_green" , "eyeball_r_green" , "hand_black" , "hand_black_glove"}
+	{ "joe_facemap" , "eyeball_l" , "eyeball_r" }
+	{ "joe_facemap" , "eyeball_l_blue" , "eyeball_r_blue" }
+	{ "joe_facemap" , "eyeball_l_green" , "eyeball_r_green" }
+	{ "joe_facemap2" , "eyeball_l" , "eyeball_r" }
+	{ "joe_facemap2" , "eyeball_l_blue" , "eyeball_r_blue" }
+	{ "joe_facemap2" , "eyeball_l_green" , "eyeball_r_green" }
+	{ "joe_facemap3" , "eyeball_l" , "eyeball_r" }
+	{ "joe_facemap3" , "eyeball_l_blue" , "eyeball_r_blue" }
+	{ "joe_facemap3" , "eyeball_l_green" , "eyeball_r_green" }
+	{ "joe_facemap4" , "eyeball_l" , "eyeball_r" }
+	{ "joe_facemap4" , "eyeball_l_blue" , "eyeball_r_blue" }
+	{ "joe_facemap4" , "eyeball_l_green" , "eyeball_r_green" }
 }
 
 $cdmaterials models/characters/citizen/male/facemaps

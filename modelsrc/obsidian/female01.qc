@@ -1,8 +1,8 @@
 
-$modelname player/citizen/female01
+$modelname player/female01
 
-$model Joey base_female/heads/female_01_reference {
-$include "base_female/heads/standardflex_xsi_female01.qci"
+$model Joey base_female/heads/female01/female01_face {
+$include "base_female/heads/female01/standardflex_xsi_female01.qci"
 
 $bodygroup Torso
 {
@@ -14,6 +14,7 @@ $bodygroup Torso
 	studio base_female/torso/rebel_1
 	studio base_female/torso/rebel_2
 	studio base_female/torso/medic_1
+	studio base_female/torso/medic_2
 	studio base_female/torso/medic_shirt
 	studio base_female/torso/hostage_1
 	studio base_female/torso/hostage_2
@@ -22,8 +23,8 @@ $bodygroup Torso
 $bodygroup Legs
 {
 	studio base_female/legs/citizen
-	studio base_female/legs/refugee
-	studio base_female/legs/refugee_g
+	studio base_female/legs/refugee_1
+	studio base_female/legs/refugee_2
 	studio base_female/legs/rebel_1
 	studio base_female/legs/rebel_2
 	studio base_female/legs/medic
@@ -43,12 +44,12 @@ $bodygroup "Hand - Right"
 	studio base_female/hands/hands_glove_right
 }
 
-// $bodygroup Headwear
-// {
-	// blank
-	// studio base_female/headwear/beanie_01_blue
-	// studio base_female/headwear/beanie_01_brown
-// }
+$bodygroup Headwear
+{
+	studio base_female/heads/female01/female01_hair
+	studio base_female/headwear/beanie_01_blue
+	studio base_female/headwear/beanie_01_brown
+}
 
 $bodygroup Eyewear
 {
@@ -57,14 +58,16 @@ $bodygroup Eyewear
 }
 
 $include "humans/common.qci"
-$include "humans/female/ragdoll_flexy.qci"
+$include "humans/female/ragdoll.qci"
 $include "humans/female/hitbox.qci"
 // $include "humans/standardhierarchy.qci"
 // $include "humans/standardikchains.qci"
 // $include "humans/female/commonbones.qci"
 $include "humans/female/anims_obsidian.qci"
-$include "humans/female/optimization_female.qci"
-$proceduralbones "humans/female.vrd"
+// $include "humans/female/optimization.qci"
+$include "humans/female/optimization01.qci"
+$include "humans/female/female01_jigglebone.qci"
+$proceduralbones "humans/female/female.vrd"
 
 $texturegroup skinfamilies
 {

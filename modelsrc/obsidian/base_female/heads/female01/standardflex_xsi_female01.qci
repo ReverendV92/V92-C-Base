@@ -1,34 +1,34 @@
-flexfile "base_female/heads/female_01_right_lid_raiser.vta"
+flexfile "base_female/heads/female01/female_01_right_lid_raiser.vta"
 flex "right_lid_raiser" frame 10
 flexcontroller "phoneme" "right_lid_raiser" "range" 0 1
 %right_lid_raiser = right_lid_raiser	 
 
-flexfile "base_female/heads/female_01_left_lid_raiser.vta"
+flexfile "base_female/heads/female01/female_01_left_lid_raiser.vta"
 flex "left_lid_raiser" frame 10
 flexcontroller "phoneme" "left_lid_raiser" "range" 0 1
 %left_lid_raiser = left_lid_raiser	 
 
-flexfile "base_female/heads/female_01_right_lid_droop.vta"
+flexfile "base_female/heads/female01/female_01_right_lid_droop.vta"
 flex "right_lid_droop" frame 10
 flexcontroller "phoneme" "right_lid_droop" "range" 0 1
 %right_lid_droop = right_lid_droop	 
 
-flexfile "base_female/heads/female_01_left_lid_droop.vta"
+flexfile "base_female/heads/female01/female_01_left_lid_droop.vta"
 flex "left_lid_droop" frame 10
 flexcontroller "phoneme" "left_lid_droop" "range" 0 1
 %left_lid_droop = left_lid_droop	 
 
-flexfile "base_female/heads/female_01_right_lid_closer.vta"
+flexfile "base_female/heads/female01/female_01_right_lid_closer.vta"
 flex "right_lid_closer" frame 10
 flexcontroller "phoneme" "right_lid_closer" "range" 0 1
 %right_lid_closer = right_lid_closer 
 
-flexfile "base_female/heads/female_01_left_lid_closer.vta"
+flexfile "base_female/heads/female01/female_01_left_lid_closer.vta"
 flex "left_lid_closer" frame 10
 flexcontroller "phoneme" "left_lid_closer" "range" 0 1
 %left_lid_closer = left_lid_closer 
 
-     flexfile "base_female/heads/mdldecompiler_expressions_01.vta" {
+     flexfile "base_female/heads/female01/mdldecompiler_expressions_01.vta" {
           flex "AU42" frame 5
           flexpair "AU1" 1.0 frame 6
           flexpair "AU2" 1.0 frame 7
@@ -57,10 +57,10 @@ flexcontroller "phoneme" "left_lid_closer" "range" 0 1
      }
      eyeball righteye ValveBiped.Bip01_Head1 -1.261 -3.702 64.974 eyeball_r 1.000  4.000 pupil_r 0.660
      eyeball lefteye ValveBiped.Bip01_Head1 1.189 -3.702 64.972 eyeball_l 1.000  -4.000 pupil_l 0.660
-      //eyelid  upper_right "base_female/heads/mdldecompiler_expressions.vta" lowerer 1 -0.242600 neutral 0 2.000000 raiser 1070726958 0.000000 split 0.1 eyeball righteye
-      //eyelid  lower_right "base_female/heads/mdldecompiler_expressions.vta" lowerer 2 -0.343100 neutral 0 0.000000 raiser -1079665859 0.000000  split 0.1 eyeball righteye
-      //eyelid  upper_left "base_female/heads/mdldecompiler_expressions.vta" lowerer 3 -0.242600 neutral 0 2.000000 raiser 1070726958 0.000000 split -0.1 eyeball lefteye
-      //eyelid  lower_left "base_female/heads/mdldecompiler_expressions.vta" lowerer 4 -0.343100 neutral 0 0.000000 raiser -1079665859 0.000000  split -0.1 eyeball lefteye
+      //eyelid  upper_right "base_female/heads/female01/mdldecompiler_expressions.vta" lowerer 1 -0.242600 neutral 0 2.000000 raiser 1070726958 0.000000 split 0.1 eyeball righteye
+      //eyelid  lower_right "base_female/heads/female01/mdldecompiler_expressions.vta" lowerer 2 -0.343100 neutral 0 0.000000 raiser -1079665859 0.000000  split 0.1 eyeball righteye
+      //eyelid  upper_left "base_female/heads/female01/mdldecompiler_expressions.vta" lowerer 3 -0.242600 neutral 0 2.000000 raiser 1070726958 0.000000 split -0.1 eyeball lefteye
+      //eyelid  lower_left "base_female/heads/female01/mdldecompiler_expressions.vta" lowerer 4 -0.343100 neutral 0 0.000000 raiser -1079665859 0.000000  split -0.1 eyeball lefteye
      mouth 0 "mouth"  ValveBiped.Bip01_Head1 0.000 1.000 0.000
      flexcontroller eyelid right_lid_raiser "range" 0.000 1.000
      flexcontroller eyelid left_lid_raiser "range" 0.000 1.000

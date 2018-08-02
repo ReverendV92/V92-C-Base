@@ -1,8 +1,9 @@
 
-$modelname player/citizen/male06
+$modelname player/male06
 
-$model Sandro male_06_reference {
-$include "standardflex_xsi_06.qci"
+$model Sandro base_male/heads/male_06_reference {
+	$include "base_male/heads/standardflex_xsi_06.qci"
+}
 
 $bodygroup Torso
 {
@@ -60,32 +61,32 @@ $bodygroup Eyewear
 }
 
 $include "humans/common.qci"
-$include "humans/male/ragdoll_flexy.qci"
+$include "humans/male/ragdoll.qci"
 $include "humans/male/hitbox.qci"
 // $include "humans/standardhierarchy.qci"
 // $include "humans/standardikchains.qci"
 // $include "humans/male/commonbones.qci"
-$include "humans/male/anims_obsidian_male.qci"
-$include "humans/male/optimization_male.qci"
-$proceduralbones "humans/male.vrd"
+$include "humans/male/anims_obsidian.qci"
+$include "humans/male/optimization.qci"
+$proceduralbones "humans/male/male.vrd"
 
 $texturegroup skinfamilies
 {
-	{ "sandro_facemap" , "eyeball_l" , "eyeball_r" , "hand_white" , "hand_white_glove"}
-	{ "sandro_facemap" , "eyeball_l_blue" , "eyeball_r_blue" , "hand_white" , "hand_white_glove"}
-	{ "sandro_facemap" , "eyeball_l_green" , "eyeball_r_green" , "hand_white" , "hand_white_glove"}
-	{ "sandro_facemap2" , "eyeball_l" , "eyeball_r" , "hand_white" , "hand_white_glove"}
-	{ "sandro_facemap2" , "eyeball_l_blue" , "eyeball_r_blue" , "hand_white" , "hand_white_glove"}
-	{ "sandro_facemap2" , "eyeball_l_green" , "eyeball_r_green" , "hand_white" , "hand_white_glove"}
-	{ "sandro_facemap3" , "eyeball_l" , "eyeball_r" , "hand_white" , "hand_white_glove"}
-	{ "sandro_facemap3" , "eyeball_l_blue" , "eyeball_r_blue" , "hand_white" , "hand_white_glove"}
-	{ "sandro_facemap3" , "eyeball_l_green" , "eyeball_r_green" , "hand_white" , "hand_white_glove"}
-	{ "sandro_facemap4" , "eyeball_l" , "eyeball_r" , "hand_white" , "hand_white_glove"}
-	{ "sandro_facemap4" , "eyeball_l_blue" , "eyeball_r_blue" , "hand_white" , "hand_white_glove"}
-	{ "sandro_facemap4" , "eyeball_l_green" , "eyeball_r_green" , "hand_white" , "hand_white_glove"}
-	{ "sandro_facemap5" , "eyeball_l" , "eyeball_r" , "hand_white" , "hand_white_glove"}
-	{ "sandro_facemap5" , "eyeball_l_blue" , "eyeball_r_blue" , "hand_white" , "hand_white_glove"}
-	{ "sandro_facemap5" , "eyeball_l_green" , "eyeball_r_green" , "hand_white" , "hand_white_glove"}
+	{ "sandro_facemap" , "eyeball_l" , "eyeball_r" }
+	{ "sandro_facemap" , "eyeball_l_blue" , "eyeball_r_blue" }
+	{ "sandro_facemap" , "eyeball_l_green" , "eyeball_r_green" }
+	{ "sandro_facemap2" , "eyeball_l" , "eyeball_r" }
+	{ "sandro_facemap2" , "eyeball_l_blue" , "eyeball_r_blue" }
+	{ "sandro_facemap2" , "eyeball_l_green" , "eyeball_r_green" }
+	{ "sandro_facemap3" , "eyeball_l" , "eyeball_r" }
+	{ "sandro_facemap3" , "eyeball_l_blue" , "eyeball_r_blue" }
+	{ "sandro_facemap3" , "eyeball_l_green" , "eyeball_r_green" }
+	{ "sandro_facemap4" , "eyeball_l" , "eyeball_r" }
+	{ "sandro_facemap4" , "eyeball_l_blue" , "eyeball_r_blue" }
+	{ "sandro_facemap4" , "eyeball_l_green" , "eyeball_r_green" }
+	{ "sandro_facemap5" , "eyeball_l" , "eyeball_r" }
+	{ "sandro_facemap5" , "eyeball_l_blue" , "eyeball_r_blue" }
+	{ "sandro_facemap5" , "eyeball_l_green" , "eyeball_r_green" }
 }
 
 $cdmaterials models/characters/citizen/male/facemaps

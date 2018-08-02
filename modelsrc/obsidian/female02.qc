@@ -1,8 +1,9 @@
 
-$modelname player/citizen/female02
+$modelname player/female02
 
 $model Kanisha base_female/heads/female_02_reference {
-$include "base_female/heads/standardflex_xsi_female02.qci"
+	$include "base_female/heads/standardflex_xsi_female02.qci"
+}
 
 $bodygroup Torso
 {
@@ -57,14 +58,14 @@ $bodygroup Eyewear
 }
 
 $include "humans/common.qci"
-$include "humans/female/ragdoll_flexy.qci"
+$include "humans/female/ragdoll.qci"
 $include "humans/female/hitbox.qci"
 // $include "humans/standardhierarchy.qci"
 // $include "humans/standardikchains.qci"
 // $include "humans/female/commonbones.qci"
 $include "humans/female/anims_obsidian.qci"
-$include "humans/female/optimization_female.qci"
-$proceduralbones "humans/female.vrd"
+$include "humans/female/optimization.qci"
+$proceduralbones "humans/female/female.vrd"
 
 $texturegroup skinfamilies
 {

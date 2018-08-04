@@ -1,4 +1,10 @@
 
+$definebone "ponytail1" "ValveBiped.Bip01_Head1" 0 0 0 0 0 0 0 0 0 0 0 0
+$definebone "ponytail2" "ponytail1" 0 0 0 0 0 0 0 0 0 0 0 0
+$definebone "ponytail3" "ponytail2" 0 0 0 0 0 0 0 0 0 0 0 0
+$definebone "ponytail4" "ponytail3" 0 0 0 0 0 0 0 0 0 0 0 0
+$definebone "ponytail5" "ponytail4" 0 0 0 0 0 0 0 0 0 0 0 0
+
 $jigglebone "ponytail1"
 {
 	is_flexible

@@ -1,0 +1,13 @@
+
+$bodygroup "Hand - Left"
+{
+	studio base_female/hands/hands_black_left
+	studio base_female/hands/hands_black_fingerless_left
+	studio base_female/hands/hands_glove_left
+}
+$bodygroup "Hand - Right"
+{
+	studio base_female/hands/hands_black_right
+	studio base_female/hands/hands_black_fingerless_right
+	studio base_female/hands/hands_glove_right
+}

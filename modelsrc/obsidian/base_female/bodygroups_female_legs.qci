@@ -1,0 +1,11 @@
+
+$bodygroup Legs
+{
+	studio base_female/legs/citizen
+	studio base_female/legs/refugee_1
+	studio base_female/legs/refugee_2
+	studio base_female/legs/rebel_1
+	studio base_female/legs/rebel_2
+	studio base_female/legs/medic
+	studio base_female/legs/hostage
+}

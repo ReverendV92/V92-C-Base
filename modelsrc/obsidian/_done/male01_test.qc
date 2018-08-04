@@ -1,8 +1,9 @@
 
-$modelname player/male01_test1
+$modelname player/citizens/male01
 
 $model Van base_male/heads/male_01_reference {
-$include "base_male/heads/standardflex_xsi_01.qci"
+	$include "base_male/heads/standardflex_xsi_01.qci"
+}
 
 $bodygroup Torso
 {

@@ -1,0 +1,13 @@
+
+$bodygroup "Hand - Left"
+{
+	studio base_male/hands/hand_hispanic_l
+	studio base_male/hands/hand_hispanic_l_glove
+	studio base_male/hands/hand_glove_l
+}
+$bodygroup "Hand - Right"
+{
+	studio base_male/hands/hand_hispanic_r
+	studio base_male/hands/hand_hispanic_r_glove
+	studio base_male/hands/hand_glove_r
+}

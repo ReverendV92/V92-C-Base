@@ -1,48 +1,13 @@
 
-$modelname player/female06
+$modelname player/citizens/female06
 
-$model Naomi base_female/heads/female_06_reference {
-	$include "base_female/heads/standardflex_xsi_female06.qci"
-}
-
-$bodygroup Torso
-{
-	studio base_female/torso/citizen_1
-	studio base_female/torso/refugee_1
-	studio base_female/torso/refugee_2
-	studio base_female/torso/combine_1
-	studio base_female/torso/combine_2
-	studio base_female/torso/rebel_1
-	studio base_female/torso/rebel_2
-	studio base_female/torso/medic_1
-	studio base_female/torso/medic_shirt
-	studio base_female/torso/hostage_1
-	studio base_female/torso/hostage_2
+$model Lakeetra base_female/heads/female_07_reference {
+	$include "base_female/heads/standardflex_xsi_female07.qci"
 }
 
-$bodygroup Legs
-{
-	studio base_female/legs/citizen
-	studio base_female/legs/refugee
-	studio base_female/legs/refugee_g
-	studio base_female/legs/rebel_1
-	studio base_female/legs/rebel_2
-	studio base_female/legs/medic
-	studio base_female/legs/hostage
-}
-
-$bodygroup "Hand - Left"
-{
-	studio base_female/hands/hands_white_left
-	studio base_female/hands/hands_white_fingerless_left
-	studio base_female/hands/hands_glove_left
-}
-$bodygroup "Hand - Right"
-{
-	studio base_female/hands/hands_white_right
-	studio base_female/hands/hands_white_fingerless_right
-	studio base_female/hands/hands_glove_right
-}
+$include base_female/bodygroups_female_torso.qci
+$include base_female/bodygroups_female_legs.qci
+$include base_female/bodygroups_female_hands_black.qci
 
 // $bodygroup Headwear
 // {
@@ -54,33 +19,33 @@ $bodygroup "Hand - Right"
 $bodygroup Eyewear
 {
 	blank
-	studio base_female/eyewear/female_06_glasses
+	studio base_female/eyewear/female_07_glasses
 }
 
 $include "humans/common.qci"
 $include "humans/female/ragdoll.qci"
 $include "humans/female/hitbox.qci"
-// $include "humans/standardhierarchy.qci"
-// $include "humans/standardikchains.qci"
-// $include "humans/female/commonbones.qci"
+$include "humans/standardhierarchy.qci"
+$include "humans/standardikchains.qci"
+$include "humans/female/commonbones.qci"
 $include "humans/female/anims_obsidian.qci"
 $include "humans/female/optimization.qci"
 $proceduralbones "humans/female/female.vrd"
 
 $texturegroup skinfamilies
 {
-	{ "naomi_facemap" , "eyeball_l" , "eyeball_r" }
-	{ "naomi_facemap" , "eyeball_l_blue" , "eyeball_r_blue" }
-	{ "naomi_facemap" , "eyeball_l_green" , "eyeball_r_green" }
-	{ "naomi_facemap2" , "eyeball_l" , "eyeball_r" }
-	{ "naomi_facemap2" , "eyeball_l_blue" , "eyeball_r_blue" }
-	{ "naomi_facemap2" , "eyeball_l_green" , "eyeball_r_green" }
-	{ "naomi_facemap3" , "eyeball_l" , "eyeball_r" }
-	{ "naomi_facemap3" , "eyeball_l_blue" , "eyeball_r_blue" }
-	{ "naomi_facemap3" , "eyeball_l_green" , "eyeball_r_green" }
-	{ "naomi_facemap4" , "eyeball_l" , "eyeball_r" }
-	{ "naomi_facemap4" , "eyeball_l_blue" , "eyeball_r_blue" }
-	{ "naomi_facemap4" , "eyeball_l_green" , "eyeball_r_green" }
+	{ "lakeetra_facemap" , "eyeball_l" , "eyeball_r" }
+	{ "lakeetra_facemap" , "eyeball_l_blue" , "eyeball_r_blue" }
+	{ "lakeetra_facemap" , "eyeball_l_green" , "eyeball_r_green" }
+	{ "lakeetra_facemap2" , "eyeball_l" , "eyeball_r" }
+	{ "lakeetra_facemap2" , "eyeball_l_blue" , "eyeball_r_blue" }
+	{ "lakeetra_facemap2" , "eyeball_l_green" , "eyeball_r_green" }
+	{ "lakeetra_facemap3" , "eyeball_l" , "eyeball_r" }
+	{ "lakeetra_facemap3" , "eyeball_l_blue" , "eyeball_r_blue" }
+	{ "lakeetra_facemap3" , "eyeball_l_green" , "eyeball_r_green" }
+	{ "lakeetra_facemap4" , "eyeball_l" , "eyeball_r" }
+	{ "lakeetra_facemap4" , "eyeball_l_blue" , "eyeball_r_blue" }
+	{ "lakeetra_facemap4" , "eyeball_l_green" , "eyeball_r_green" }
 }
 
 $cdmaterials models/characters/citizen/female/facemaps

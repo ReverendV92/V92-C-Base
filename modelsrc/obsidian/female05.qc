@@ -1,13 +1,13 @@
 
-$modelname player/citizens/female03
+$modelname player/citizens/female05
 
-$model Kim base_female/heads/female_03_reference {
-	$include "base_female/heads/standardflex_xsi_female03.qci"
+$model Naomi base_female/heads/female_06_reference {
+	$include "base_female/heads/standardflex_xsi_female06.qci"
 }
 
 $include base_female/bodygroups_female_torso.qci
 $include base_female/bodygroups_female_legs.qci
-$include base_female/bodygroups_female_hands_black.qci
+$include base_female/bodygroups_female_hands_white.qci
 
 // $bodygroup Headwear
 // {
@@ -19,7 +19,7 @@ $include base_female/bodygroups_female_hands_black.qci
 $bodygroup Eyewear
 {
 	blank
-	studio base_female/eyewear/female_03_glasses
+	studio base_female/eyewear/female_06_glasses
 }
 
 $include "humans/common.qci"
@@ -34,18 +34,18 @@ $proceduralbones "humans/female/female.vrd"
 
 $texturegroup skinfamilies
 {
-	{ "kim_facemap" , "eyeball_l" , "eyeball_r" }
-	{ "kim_facemap" , "eyeball_l_blue" , "eyeball_r_blue" }
-	{ "kim_facemap" , "eyeball_l_green" , "eyeball_r_green" }
-	{ "kim_facemap2" , "eyeball_l" , "eyeball_r" }
-	{ "kim_facemap2" , "eyeball_l_blue" , "eyeball_r_blue" }
-	{ "kim_facemap2" , "eyeball_l_green" , "eyeball_r_green" }
-	{ "kim_facemap3" , "eyeball_l" , "eyeball_r" }
-	{ "kim_facemap3" , "eyeball_l_blue" , "eyeball_r_blue" }
-	{ "kim_facemap3" , "eyeball_l_green" , "eyeball_r_green" }
-	{ "kim_facemap4" , "eyeball_l" , "eyeball_r" }
-	{ "kim_facemap4" , "eyeball_l_blue" , "eyeball_r_blue" }
-	{ "kim_facemap4" , "eyeball_l_green" , "eyeball_r_green" }
+	{ "naomi_facemap" , "eyeball_l" , "eyeball_r" }
+	{ "naomi_facemap" , "eyeball_l_blue" , "eyeball_r_blue" }
+	{ "naomi_facemap" , "eyeball_l_green" , "eyeball_r_green" }
+	{ "naomi_facemap2" , "eyeball_l" , "eyeball_r" }
+	{ "naomi_facemap2" , "eyeball_l_blue" , "eyeball_r_blue" }
+	{ "naomi_facemap2" , "eyeball_l_green" , "eyeball_r_green" }
+	{ "naomi_facemap3" , "eyeball_l" , "eyeball_r" }
+	{ "naomi_facemap3" , "eyeball_l_blue" , "eyeball_r_blue" }
+	{ "naomi_facemap3" , "eyeball_l_green" , "eyeball_r_green" }
+	{ "naomi_facemap4" , "eyeball_l" , "eyeball_r" }
+	{ "naomi_facemap4" , "eyeball_l_blue" , "eyeball_r_blue" }
+	{ "naomi_facemap4" , "eyeball_l_green" , "eyeball_r_green" }
 }
 
 $cdmaterials models/characters/citizen/female/facemaps

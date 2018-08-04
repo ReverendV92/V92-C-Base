@@ -1,0 +1,16 @@
+
+$bodygroup Torso
+{
+	studio base_female/torso/citizen_1
+	studio base_female/torso/refugee_1
+	studio base_female/torso/refugee_2
+	studio base_female/torso/combine_1
+	studio base_female/torso/combine_2
+	studio base_female/torso/rebel_1
+	studio base_female/torso/rebel_2
+	studio base_female/torso/medic_1
+	studio base_female/torso/medic_2
+	studio base_female/torso/medic_shirt
+	studio base_female/torso/hostage_1
+	studio base_female/torso/hostage_2
+}

@@ -5,52 +5,14 @@ $model Van base_male/heads/male_01_reference {
 	$include "base_male/heads/standardflex_xsi_01.qci"
 }
 
-$bodygroup Torso
-{
-	studio base_male/torso/citizen_1
-	studio base_male/torso/refugee_1
-	studio base_male/torso/refugee_2
-	studio base_male/torso/combine_1
-	studio base_male/torso/combine_2
-	studio base_male/torso/combine_3
-	studio base_male/torso/combine_4
-	studio base_male/torso/rebel_1
-	studio base_male/torso/rebel_2
-	studio base_male/torso/medic_1
-	studio base_male/torso/medic_2
-	studio base_male/torso/medic_3
-	studio base_male/torso/hostage_1
-	studio base_male/torso/hostage_2
-	studio base_male/torso/de_train
-}
-
-$bodygroup Legs
-{
-	studio base_male/legs/citizen_legs
-	studio base_male/legs/refugee_legs
-	studio base_male/legs/rebel_legs_1
-	studio base_male/legs/rebel_legs_2
-	studio base_male/legs/medic_legs
-	studio base_male/legs/hostage_legs
-}
-
-$bodygroup "Hand - Left"
-{
-	studio base_male/hands/hand_black_l
-	studio base_male/hands/hand_black_l_glove
-	studio base_male/hands/hand_glove_l
-}
-$bodygroup "Hand - Right"
-{
-	studio base_male/hands/hand_black_r
-	studio base_male/hands/hand_black_r_glove
-	studio base_male/hands/hand_glove_r
-}
+$include base_male/bodygroups_torso.qci
+$include base_male/bodygroups_legs.qci
+$include base_male/bodygroups_hands_black.qci
 
 $bodygroup Headwear
 {
 	blank
-	studio base_male/headwear/beanie_01_blue
+	studio base_male/headwear/beanie_01_black
 	studio base_male/headwear/beanie_01_green
 }
 

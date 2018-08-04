@@ -7,7 +7,6 @@ $heirarchy "valvebiped.Bip01_R_Clavicle" "valvebiped.Bip01_Spine4"
 $heirarchy "valvebiped.Bip01_L_Thigh" "valvebiped.Bip01_Pelvis" 
 $heirarchy "valvebiped.Bip01_R_Thigh" "valvebiped.Bip01_Pelvis" 
 
-
 // ani bones
 $bonesaveframe "ValveBiped.Bip01_Pelvis" position rotation
 $bonesaveframe "ValveBiped.Bip01_Spine" rotation

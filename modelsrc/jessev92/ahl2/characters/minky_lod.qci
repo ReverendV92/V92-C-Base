@@ -1,0 +1,49 @@
+
+$LOD 7
+{
+	replacemodel "minky_reference.smd" "minky_female_04_reference_lod1.smd"
+	replacemodel "minky_body1_model1.smd" "minky_body1_model1_lod1.smd"
+	replacemodel "minky_body2_model1.smd" "minky_body2_model1_lod1.smd"
+	replacemodel "minky_body3_model1.smd" "minky_body3_model1_lod1.smd"
+	replacemodel "minky_body4_model1.smd" "minky_body4_model1_lod1.smd"
+}
+$LOD 14
+{
+	replacemodel "minky_reference.smd" "minky_female_04_reference_lod2.smd"
+	replacemodel "minky_body1_model1.smd" "minky_body1_model1_lod2.smd"
+	replacemodel "minky_body2_model1.smd" "minky_body2_model1_lod2.smd"
+	replacemodel "minky_body3_model1.smd" "minky_body3_model1_lod2.smd"
+	replacemodel "minky_body4_model1.smd" "minky_body4_model1_lod2.smd"
+}
+$LOD 24
+{
+	replacemodel "minky_reference.smd" "minky_female_04_reference_lod3.smd"
+	replacemodel "minky_body1_model1.smd" "minky_body1_model1_lod3.smd"
+	replacemodel "minky_body2_model1.smd" "minky_body2_model1_lod3.smd"
+	replacemodel "minky_body3_model1.smd" "minky_body3_model1_lod3.smd"
+	replacemodel "minky_body4_model1.smd" "minky_body4_model1_lod3.smd"
+}
+$LOD 35
+{
+	replacemodel "minky_reference.smd" "minky_female_04_reference_lod4.smd"
+	replacemodel "minky_body1_model1.smd" "minky_body1_model1_lod4.smd"
+	replacemodel "minky_body2_model1.smd" "minky_body2_model1_lod4.smd"
+	replacemodel "minky_body3_model1.smd" "minky_body3_model1_lod4.smd"
+	replacemodel "minky_body4_model1.smd" "minky_body4_model1_lod4.smd"
+}
+$LOD 60
+{
+	replacemodel "minky_reference.smd" "minky_female_04_reference_lod5.smd"
+	replacemodel "minky_body1_model1.smd" "minky_body1_model1_lod5.smd"
+	replacemodel "minky_body2_model1.smd" "minky_body2_model1_lod5.smd"
+	replacemodel "minky_body3_model1.smd" "minky_body3_model1_lod5.smd"
+	replacemodel "minky_body4_model1.smd" "minky_body4_model1_lod5.smd"
+}
+$ShadowLOD
+{
+	replacemodel "minky_reference.smd" "minky_female_04_reference_lod6.smd"
+	replacemodel "minky_body1_model1.smd" "minky_body1_model1_lod6.smd"
+	replacemodel "minky_body2_model1.smd" "minky_body2_model1_lod6.smd"
+	replacemodel "minky_body3_model1.smd" "minky_body3_model1_lod6.smd"
+	replacemodel "minky_body4_model1.smd" "minky_body4_model1_lod6.smd"
+}

@@ -1,0 +1,41 @@
+
+$LOD 10
+{
+	replacemodel "detective_reference.smd" "detective_gman_reference_lod1.smd"
+	replacemodel "detective_body1_model1.smd" "detective_body1_model1_lod1.smd"
+	replacemodel "detective_body2_model1.smd" "detective_body2_model1_lod1.smd"
+	replacemodel "detective_body3_model1.smd" "detective_body3_model1_lod1.smd"
+	replacemodel "detective_body4_model1.smd" "detective_body4_model1_lod1.smd"
+}
+$LOD 20
+{
+	replacemodel "detective_reference.smd" "detective_gman_reference_lod2.smd"
+	replacemodel "detective_body1_model1.smd" "detective_body1_model1_lod2.smd"
+	replacemodel "detective_body2_model1.smd" "detective_body2_model1_lod2.smd"
+	replacemodel "detective_body3_model1.smd" "detective_body3_model1_lod2.smd"
+	replacemodel "detective_body4_model1.smd" "detective_body4_model1_lod2.smd"
+}
+$LOD 32
+{
+	replacemodel "detective_reference.smd" "detective_gman_reference_lod3.smd"
+	replacemodel "detective_body1_model1.smd" "detective_body1_model1_lod3.smd"
+	replacemodel "detective_body2_model1.smd" "detective_body2_model1_lod3.smd"
+	replacemodel "detective_body3_model1.smd" "detective_body3_model1_lod3.smd"
+	replacemodel "detective_body4_model1.smd" "detective_body4_model1_lod3.smd"
+}
+$LOD 45
+{
+	replacemodel "detective_reference.smd" "detective_gman_reference_lod4.smd"
+	replacemodel "detective_body1_model1.smd" "detective_body1_model1_lod4.smd"
+	replacemodel "detective_body2_model1.smd" "detective_body2_model1_lod4.smd"
+	replacemodel "detective_body3_model1.smd" "detective_body3_model1_lod4.smd"
+	replacemodel "detective_body4_model1.smd" "detective_body4_model1_lod4.smd"
+}
+$ShadowLOD
+{
+	replacemodel "detective_reference.smd" "detective_gman_reference_lod5.smd"
+	replacemodel "detective_body1_model1.smd" "detective_body1_model1_lod5.smd"
+	replacemodel "detective_body2_model1.smd" "detective_body2_model1_lod5.smd"
+	replacemodel "detective_body3_model1.smd" "detective_body3_model1_lod5.smd"
+	replacemodel "detective_body4_model1.smd" "detective_body4_model1_lod5.smd"
+}

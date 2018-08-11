@@ -25,4 +25,18 @@
 	"$RaytraceSphere" "0" // Default 1 - Enables raytracing in the pixel shader to make the eyeball look round
 	"$SphereTexkillCombo" "0" // Default 1 - Enables killing pixels that don't ray-intersect the sphere
 
+	$proxytoggle 1
+	Proxies
+	{
+
+		Equals
+		{
+
+			srcVar1 $proxytoggle // Disable Proxies
+			resultVar $color // The shader parameter to be manipulated
+
+		}
+
+	}
+
 }

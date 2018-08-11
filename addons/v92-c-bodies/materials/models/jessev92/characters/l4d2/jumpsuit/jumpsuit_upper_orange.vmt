@@ -1,0 +1,38 @@
+
+vertexlitgeneric
+{
+
+	$basetexture  models/jessev92/characters/l4d2/jumpsuit/jumpsuit_upper_orange_d
+	$bumpmap models/jessev92/characters/l4d2/jumpsuit/jumpsuit_upper_b
+	$lightwarptexture dev/identitylightwarp
+
+	$halflambert 1
+	$ambientocclusion 1
+
+	$phong 1
+	// $phongexponent 5
+	$phongexponenttexture models/jessev92/characters/l4d2/jumpsuit/jumpsuit_upper_shiny_x
+	$phongalbedotint 1
+	$phongboost 0.2
+	$phongfresnelranges "[ 0.5 1 11 ]"
+
+	$detail models/jessev92/detail/clothes
+	$detailscale 5
+	$detailblendfactor 0.5
+	$detailblendmode 0
+
+	$proxytoggle 1
+	Proxies
+	{
+
+		Equals
+		{
+
+			srcVar1 $proxytoggle // Disable Proxies
+			resultVar $color // The shader parameter to be manipulated
+
+		}
+
+	}
+
+}

@@ -23,4 +23,18 @@ VertexLitGeneric
 	$detailblendfactor 0.7
 	$detailblendmode 0
 
+	$proxytoggle 1
+	Proxies
+	{
+
+		Equals
+		{
+
+			srcVar1 $proxytoggle // Disable Proxies
+			resultVar $color // The shader parameter to be manipulated
+
+		}
+
+	}
+
 }

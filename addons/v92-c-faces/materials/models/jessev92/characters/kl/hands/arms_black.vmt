@@ -4,6 +4,7 @@ VertexLitGeneric
 
 	$basetexture models/jessev92/characters/kl/hands/arms_black_d
 	$bumpmap models/jessev92/characters/kl/hands/arms_b
+	$lightwarptexture dev/identitylightwarp
 
 	$halflambert 1
 	$ambientocclusion 1

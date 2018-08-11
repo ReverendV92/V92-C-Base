@@ -11,7 +11,7 @@ vertexlitgeneric
 	$ambientocclusiontexture models/jessev92/characters/fo4/minutemen/preston/watmm/prestonbody_ao
 	$nocull 1
 
-	$phong 1
+	$phong 0
 	$phongexponenttexture models/jessev92/characters/fo4/minutemen/preston/watmm/prestonbody_x
 	$phongexponent 30
 	$phongboost 1

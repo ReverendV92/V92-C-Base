@@ -1,0 +1,26 @@
+
+$texturegroup skinfamilies
+{
+	{ "Base_M_D" },
+ 	{ "Base_M_D2" },
+ 	{ "Base_M_03_D" },
+ 	{ "Base_M_04_D" },
+ 	{ "Base_M_05_D" },
+ 	{ "Base_M_06_D" },
+ 	{ "Base_M_07_D" },
+ 	{ "Base_M_08_D" },
+ 	{ "Base_M_09_D" },
+ 	{ "Base_M_10_D" },
+ 	//{ "Base_M_11_D" },
+ 	{ "Base_M_12_D" },
+ 	//{ "Base_M_13_D" },
+ 	{ "Base_M_14_D" },
+ 	{ "Base_M_15_D" },
+ 	{ "Base_M_16_D" },
+ 	{ "Base_M_17_D" },
+ 	{ "Base_M_18_D" },
+ 	{ "Base_M_19_D" },	
+ 	{ "Base_M_20_D" },	
+ 	{ "Base_M_21_D" },	
+ 	//{ "Base_M_22_D" },	
+}

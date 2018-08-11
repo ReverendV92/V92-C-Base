@@ -1,0 +1,60 @@
+
+$bodygroup	Body
+{
+	studio	infantry/body/shirt1
+	studio	infantry/body/shirt2
+	studio	infantry/body/shirt3
+}
+$bodygroup	Shirt
+{
+	studio	infantry/body/undershirt
+}
+$bodygroup	Legs
+{
+	studio	infantry/body/legs
+	studio	infantry/body/legs_pads
+}
+$bodygroup	Helmet
+{
+	studio	infantry/head/helmet
+	blank
+}
+$bodygroup	Mask
+{
+	//studio	infantry/head/fbi_mask
+	blank
+}
+$bodygroup	Goggles
+{
+	blank
+	studio	infantry/head/glasses_goggles
+}
+$bodygroup	Belt
+{
+	studio	infantry/belt/belt1
+	studio	infantry/belt/belt2
+	studio	infantry/belt/belt3
+	blank
+}
+$bodygroup	Rigging
+{
+	studio	infantry/vest/battle
+	studio	infantry/vest/blackhawk
+	studio	infantry/vest/carrier
+	studio	infantry/vest/gunner
+	studio	infantry/vest/lbv
+	//studio	infantry/vest/ranger
+	//studio	infantry/vest/rangergunner
+	//studio	infantry/vest/rangerlbv
+	blank
+}
+$bodygroup	Backpack
+{
+	studio	infantry/backpack/backpack_6
+	studio	infantry/backpack/backpack_5
+	studio	infantry/backpack/backpack_4
+	studio	infantry/backpack/backpack_3
+	studio	infantry/backpack/backpack_2
+	studio	infantry/backpack/backpack_1
+	blank
+}

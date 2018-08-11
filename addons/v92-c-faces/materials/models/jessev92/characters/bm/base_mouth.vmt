@@ -16,4 +16,18 @@ Teeth
 	$halflambert 1
 	$ambientocclusion 1
 	
+	$proxytoggle 1
+	Proxies
+	{
+
+		Equals
+		{
+
+			srcVar1 $proxytoggle // Disable Proxies
+			resultVar $color // The shader parameter to be manipulated
+
+		}
+
+	}
+
 }

@@ -1,0 +1,13 @@
+insert
+{
+	$proxytoggle 1
+	Proxies
+	{
+		Equals
+		{
+			srcVar1 $proxytoggle // Disable Proxies
+			resultVar $color // The shader parameter to be manipulated
+
+		}
+	}
+}

@@ -1,0 +1,41 @@
+
+$LOD 10
+{
+	replacemodel "jc_reference.smd" "jc_johncage_lod1.smd"
+	replacemodel "jc_vest.smd" "jc_vest_lod1.smd"
+	replacemodel "jc_holster.smd" "jc_holster_lod1.smd"
+	replacemodel "jc_body3_model1.smd" "jc_body3_model1_lod1.smd"
+	replacemodel "jc_bandolier.smd" "jc_bandolier_lod1.smd"
+}
+$LOD 18
+{
+	replacemodel "jc_reference.smd" "jc_johncage_lod2.smd"
+	replacemodel "jc_vest.smd" "jc_vest_lod2.smd"
+	replacemodel "jc_holster.smd" "jc_holster_lod2.smd"
+	replacemodel "jc_body3_model1.smd" "jc_body3_model1_lod2.smd"
+	replacemodel "jc_bandolier.smd" "jc_bandolier_lod2.smd"
+}
+$LOD 32
+{
+	replacemodel "jc_reference.smd" "jc_johncage_lod3.smd"
+	replacemodel "jc_vest.smd" "jc_vest_lod3.smd"
+	replacemodel "jc_holster.smd" "jc_holster_lod3.smd"
+	replacemodel "jc_body3_model1.smd" "jc_body3_model1_lod3.smd"
+	replacemodel "jc_bandolier.smd" "jc_bandolier_lod3.smd"
+}
+$LOD 45
+{
+	replacemodel "jc_reference.smd" "jc_johncage_lod4.smd"
+	replacemodel "jc_vest.smd" "jc_vest_lod4.smd"
+	replacemodel "jc_holster.smd" "jc_holster_lod4.smd"
+	replacemodel "jc_body3_model1.smd" "jc_body3_model1_lod4.smd"
+	replacemodel "jc_bandolier.smd" "jc_bandolier_lod4.smd"
+}
+$ShadowLOD
+{
+	replacemodel "jc_reference.smd" "jc_johncage_lod5.smd"
+	replacemodel "jc_vest.smd" "jc_vest_lod5.smd"
+	replacemodel "jc_holster.smd" "jc_holster_lod5.smd"
+	replacemodel "jc_body3_model1.smd" "jc_body3_model1_lod5.smd"
+	replacemodel "jc_bandolier.smd" "jc_bandolier_lod5.smd"
+}

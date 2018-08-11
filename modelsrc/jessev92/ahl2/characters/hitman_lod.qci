@@ -1,0 +1,41 @@
+
+$LOD 10
+{
+	replacemodel "hitman_reference.smd" "hitman_lod1.smd"
+	replacemodel "hitman_body1_model1.smd" "hitman_body1_model1_lod1.smd"
+	replacemodel "hitman_body2_model1.smd" "hitman_body2_model1_lod1.smd"
+	replacemodel "hitman_body3_model1.smd" "hitman_body3_model1_lod1.smd"
+	replacemodel "hitman_body4_model1.smd" "hitman_body4_model1_lod1.smd"
+}
+$LOD 20
+{
+	replacemodel "hitman_reference.smd" "hitman_lod2.smd"
+	replacemodel "hitman_body1_model1.smd" "hitman_body1_model1_lod2.smd"
+	replacemodel "hitman_body2_model1.smd" "hitman_body2_model1_lod2.smd"
+	replacemodel "hitman_body3_model1.smd" "hitman_body3_model1_lod2.smd"
+	replacemodel "hitman_body4_model1.smd" "hitman_body4_model1_lod2.smd"
+}
+$LOD 32
+{
+	replacemodel "hitman_reference.smd" "hitman_lod3.smd"
+	replacemodel "hitman_body1_model1.smd" "hitman_body1_model1_lod3.smd"
+	replacemodel "hitman_body2_model1.smd" "hitman_body2_model1_lod3.smd"
+	replacemodel "hitman_body3_model1.smd" "hitman_body3_model1_lod3.smd"
+	replacemodel "hitman_body4_model1.smd" "hitman_body4_model1_lod3.smd"
+}
+$LOD 45
+{
+	replacemodel "hitman_reference.smd" "hitman_lod4.smd"
+	replacemodel "hitman_body1_model1.smd" "hitman_body1_model1_lod4.smd"
+	replacemodel "hitman_body2_model1.smd" "hitman_body2_model1_lod4.smd"
+	replacemodel "hitman_body3_model1.smd" "hitman_body3_model1_lod4.smd"
+	replacemodel "hitman_body4_model1.smd" "hitman_body4_model1_lod4.smd"
+}
+$ShadowLOD
+{
+	replacemodel "hitman_reference.smd" "hitman_lod5.smd"
+	replacemodel "hitman_body1_model1.smd" "hitman_body1_model1_lod5.smd"
+	replacemodel "hitman_body2_model1.smd" "hitman_body2_model1_lod5.smd"
+	replacemodel "hitman_body3_model1.smd" "hitman_body3_model1_lod5.smd"
+	replacemodel "hitman_body4_model1.smd" "hitman_body4_model1_lod5.smd"
+}

@@ -1,0 +1,18 @@
+
+vertexlitgeneric
+{
+
+	$basetexture models/jessev92/characters/hl2s/rebel/female/goggle_lens_d
+	$bumpmap dev/bump_normal
+	$lightwarptexture dev/identitylightwarp
+
+	$halflambert 1
+	$ambientocclusion 1
+
+	$translucent 1
+
+	$envmap env_cubemap
+	$envmapcontrast 1.25
+	$envmapmask models/jessev92/characters/hl2s/rebel/female/goggle_x
+
+}

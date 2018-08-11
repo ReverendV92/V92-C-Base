@@ -1,0 +1,41 @@
+
+$LOD 10
+{
+	replacemodel "frank_reference.smd" "frank_lod1.smd"
+	replacemodel "frank_vest.smd" "frank_vest_lod1.smd"
+	replacemodel "frank_holster.smd" "frank_holster_lod1.smd"
+	replacemodel "frank_slippers.smd" "frank_slippers_lod1.smd"
+	replacemodel "frank_bandolier.smd" "frank_bandolier_lod1.smd"
+}
+$LOD 18
+{
+	replacemodel "frank_reference.smd" "frank_lod2.smd"
+	replacemodel "frank_vest.smd" "frank_vest_lod2.smd"
+	replacemodel "frank_holster.smd" "frank_holster_lod2.smd"
+	replacemodel "frank_slippers.smd" "frank_slippers_lod2.smd"
+	replacemodel "frank_bandolier.smd" "frank_bandolier_lod2.smd"
+}
+$LOD 32
+{
+	replacemodel "frank_reference.smd" "frank_lod3.smd"
+	replacemodel "frank_vest.smd" "frank_vest_lod3.smd"
+	replacemodel "frank_holster.smd" "frank_holster_lod3.smd"
+	replacemodel "frank_slippers.smd" "frank_slippers_lod3.smd"
+	replacemodel "frank_bandolier.smd" "frank_bandolier_lod3.smd"
+}
+$LOD 45
+{
+	replacemodel "frank_reference.smd" "frank_lod4.smd"
+	replacemodel "frank_vest.smd" "frank_vest_lod4.smd"
+	replacemodel "frank_holster.smd" "frank_holster_lod4.smd"
+	replacemodel "frank_slippers.smd" "frank_slippers_lod4.smd"
+	replacemodel "frank_bandolier.smd" "frank_bandolier_lod4.smd"
+}
+$ShadowLOD
+{
+	replacemodel "frank_reference.smd" "frank_lod5.smd"
+	replacemodel "frank_vest.smd" "frank_vest_lod5.smd"
+	replacemodel "frank_holster.smd" "frank_holster_lod5.smd"
+	replacemodel "frank_slippers.smd" "frank_slippers_lod5.smd"
+	replacemodel "frank_bandolier.smd" "frank_bandolier_lod5.smd"
+}

@@ -25,7 +25,7 @@ vertexlitgeneric
 	$surfaceprop flesh
 	$ambientocclusion  1
 	$halflambert 1
-	$nocull  1
+	// $nocull  1
 	$nodecal 1
 	$diffuseexp 1.5
 
@@ -33,5 +33,19 @@ vertexlitgeneric
 	$detailscale 8
 	$detailblendfactor 0.7
 	$detailblendmode 0
+
+	$proxytoggle 1
+	Proxies
+	{
+
+		Equals
+		{
+
+			srcVar1 $proxytoggle // Disable Proxies
+			resultVar $color // The shader parameter to be manipulated
+
+		}
+
+	}
 
 }

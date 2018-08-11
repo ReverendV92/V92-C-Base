@@ -2,7 +2,7 @@
 vertexlitgeneric
 {
 
-	$basetexture models/jessev92/characters/mgo/gear/aviators
+	$basetexture models/jessev92/characters/mgo/gear/aviator
 	$bumpmap dev/bump_normal
 	$lightwarptexture dev/identitylightwarp
 	

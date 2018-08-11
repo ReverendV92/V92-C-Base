@@ -1,0 +1,19 @@
+
+$opaque
+$modelname			jessev92/GIJoe/weapons/arms_troopers
+$body 				"GIJoe"	c_arms/c_arms
+
+$include			"include_GIJoe_infantry_cdmat.qci"
+$include			"c_arms/c_arms_definebones.qci"
+$surfaceprop		flesh
+$contents			solid
+$includemodel		"weapons/c_arms_animations.mdl"
+$proceduralbones	"c_arms/c_arms_dod.vrd"
+$origin				0 0 66
+$ikchain			rhand "ValveBiped.Bip01_R_Hand" Z 0 knee 0.707 0.707 0
+$ikchain			lhand "ValveBiped.Bip01_L_Hand" Z 0 knee 0.707 0.707 0
+$weightlist			IKLayer "ValveBiped.Bip01_Spine4" 0.5 "ValveBiped.Bip01_Spine4" 0.5
+$animation			a_idle_layer "c_arms/anim_idle_layer" subtract a_idle_layer 0 ikrule lhand touch "ValveBiped.Bip01_Spine4" usesource
+$sequence			c_arms/anim_idle_layer a_idle_layer delta loop fps 30 hidden autoplay realtime weightlist IKlayer
+$sequence			idle	"c_arms/c_arms_dod_anims/idle" {	fps	1}
+

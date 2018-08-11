@@ -1,0 +1,49 @@
+
+$LOD 7
+{
+	replacemodel "johnson_reference.smd" "johnson_male_09_reference_lod1.smd"
+	replacemodel "johnson_body1_model1.smd" "johnson_body1_model1_lod1.smd"
+	replacemodel "johnson_body2_model1.smd" "johnson_body2_model1_lod1.smd"
+	replacemodel "johnson_body3_model1.smd" "johnson_body3_model1_lod1.smd"
+	replacemodel "johnson_body4_model1.smd" "johnson_body4_model1_lod1.smd"
+}
+$LOD 14
+{
+	replacemodel "johnson_reference.smd" "johnson_male_09_reference_lod2.smd"
+	replacemodel "johnson_body1_model1.smd" "johnson_body1_model1_lod2.smd"
+	replacemodel "johnson_body2_model1.smd" "johnson_body2_model1_lod2.smd"
+	replacemodel "johnson_body3_model1.smd" "johnson_body3_model1_lod2.smd"
+	replacemodel "johnson_body4_model1.smd" "johnson_body4_model1_lod2.smd"
+}
+$LOD 24
+{
+	replacemodel "johnson_reference.smd" "johnson_male_09_reference_lod3.smd"
+	replacemodel "johnson_body1_model1.smd" "johnson_body1_model1_lod3.smd"
+	replacemodel "johnson_body2_model1.smd" "johnson_body2_model1_lod3.smd"
+	replacemodel "johnson_body3_model1.smd" "johnson_body3_model1_lod3.smd"
+	replacemodel "johnson_body4_model1.smd" "johnson_body4_model1_lod3.smd"
+}
+$LOD 35
+{
+	replacemodel "johnson_reference.smd" "johnson_male_09_reference_lod4.smd"
+	replacemodel "johnson_body1_model1.smd" "johnson_body1_model1_lod4.smd"
+	replacemodel "johnson_body2_model1.smd" "johnson_body2_model1_lod4.smd"
+	replacemodel "johnson_body3_model1.smd" "johnson_body3_model1_lod4.smd"
+	replacemodel "johnson_body4_model1.smd" "johnson_body4_model1_lod4.smd"
+}
+$LOD 60
+{
+	replacemodel "johnson_reference.smd" "johnson_male_09_reference_lod5.smd"
+	replacemodel "johnson_body1_model1.smd" "johnson_body1_model1_lod5.smd"
+	replacemodel "johnson_body2_model1.smd" "johnson_body2_model1_lod5.smd"
+	replacemodel "johnson_body3_model1.smd" "johnson_body3_model1_lod5.smd"
+	replacemodel "johnson_body4_model1.smd" "johnson_body4_model1_lod5.smd"
+}
+$ShadowLOD
+{
+	replacemodel "johnson_reference.smd" "johnson_male_09_reference_lod6.smd"
+	replacemodel "johnson_body1_model1.smd" "johnson_body1_model1_lod6.smd"
+	replacemodel "johnson_body2_model1.smd" "johnson_body2_model1_lod6.smd"
+	replacemodel "johnson_body3_model1.smd" "johnson_body3_model1_lod6.smd"
+	replacemodel "johnson_body4_model1.smd" "johnson_body4_model1_lod6.smd"
+}

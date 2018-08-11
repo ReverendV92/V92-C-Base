@@ -4,12 +4,13 @@ VertexLitGeneric
 
 	$basetexture models/jessev92/characters/kl/hands/arms_white_d
 	$bumpmap models/jessev92/characters/kl/hands/arms_b
+	$lightwarptexture dev/identitylightwarp
 
 	$halflambert 1
 	$ambientocclusion 1
 	
 	$phong 1
-	$phongexponent 10
+	$phongexponent 15
 	$phongboost 0.007
 	$phongfresnelranges "[ 0.3 1 7 ]"
 	$phongalbedotint 1

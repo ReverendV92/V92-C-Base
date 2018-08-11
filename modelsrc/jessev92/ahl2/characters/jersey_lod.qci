@@ -1,0 +1,49 @@
+
+$LOD 10
+{
+	replacemodel "jersey_reference.smd" "jersey_odessa_reference_lod1.smd"
+	replacemodel "jersey_body1_model1.smd" "jersey_body1_model1_lod1.smd"
+	replacemodel "jersey_body2_model1.smd" "jersey_body2_model1_lod1.smd"
+	replacemodel "jersey_body3_model1.smd" "jersey_body3_model1_lod1.smd"
+	replacemodel "jersey_body4_model1.smd" "jersey_body4_model1_lod1.smd"
+}
+$LOD 20
+{
+	replacemodel "jersey_reference.smd" "jersey_odessa_reference_lod2.smd"
+	replacemodel "jersey_body1_model1.smd" "jersey_body1_model1_lod2.smd"
+	replacemodel "jersey_body2_model1.smd" "jersey_body2_model1_lod2.smd"
+	replacemodel "jersey_body3_model1.smd" "jersey_body3_model1_lod2.smd"
+	replacemodel "jersey_body4_model1.smd" "jersey_body4_model1_lod2.smd"
+}
+$LOD 24
+{
+	replacemodel "jersey_reference.smd" "jersey_odessa_reference_lod3.smd"
+	replacemodel "jersey_body1_model1.smd" "jersey_body1_model1_lod3.smd"
+	replacemodel "jersey_body2_model1.smd" "jersey_body2_model1_lod3.smd"
+	replacemodel "jersey_body3_model1.smd" "jersey_body3_model1_lod3.smd"
+	replacemodel "jersey_body4_model1.smd" "jersey_body4_model1_lod3.smd"
+}
+$LOD 35
+{
+	replacemodel "jersey_reference.smd" "jersey_odessa_reference_lod4.smd"
+	replacemodel "jersey_body1_model1.smd" "jersey_body1_model1_lod4.smd"
+	replacemodel "jersey_body2_model1.smd" "jersey_body2_model1_lod4.smd"
+	replacemodel "jersey_body3_model1.smd" "jersey_body3_model1_lod4.smd"
+	replacemodel "jersey_body4_model1.smd" "jersey_body4_model1_lod4.smd"
+}
+$LOD 60
+{
+	replacemodel "jersey_reference.smd" "jersey_odessa_reference_lod5.smd"
+	replacemodel "jersey_body1_model1.smd" "jersey_body1_model1_lod5.smd"
+	replacemodel "jersey_body2_model1.smd" "jersey_body2_model1_lod5.smd"
+	replacemodel "jersey_body3_model1.smd" "jersey_body3_model1_lod5.smd"
+	replacemodel "jersey_body4_model1.smd" "jersey_body4_model1_lod5.smd"
+}
+$ShadowLOD
+{
+	replacemodel "jersey_reference.smd" "jersey_odessa_reference_lod6.smd"
+	replacemodel "jersey_body1_model1.smd" "jersey_body1_model1_lod6.smd"
+	replacemodel "jersey_body2_model1.smd" "jersey_body2_model1_lod6.smd"
+	replacemodel "jersey_body3_model1.smd" "jersey_body3_model1_lod6.smd"
+	replacemodel "jersey_body4_model1.smd" "jersey_body4_model1_lod6.smd"
+}

@@ -1,0 +1,56 @@
+
+$bodygroup	Body
+{
+	studio	infantry/shirt
+}
+$bodygroup	Shirt
+{
+	studio	common/undershirt
+}
+$bodygroup	Hands
+{
+	studio	common/hands_glove
+}
+$bodygroup	Legs
+{
+	studio	infantry/legs_kneepads
+	studio	infantry/legs
+}
+$bodygroup	Helmet
+{
+	studio	infantry/helmet
+	blank
+}
+$bodygroup	Mask
+{
+	studio	common/fbi_mask
+	blank
+}
+$bodygroup	Goggles
+{
+	blank
+	studio	common/glasses_goggles
+}
+$bodygroup	Belt
+{
+	studio	common/belt1
+	studio	common/belt2
+	studio	common/belt3
+	blank
+}
+$bodygroup	Rigging
+{
+	studio	common/akrig
+	blank
+}
+$bodygroup	Backpack
+{
+	studio	common/backpack_6
+	studio	common/backpack_5
+	studio	common/backpack_4
+	studio	common/backpack_3
+	studio	common/backpack_2
+	studio	common/backpack_1
+	studio	infantry/back_radio
+	blank
+}

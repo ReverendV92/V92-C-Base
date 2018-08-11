@@ -1,8 +1,9 @@
 
-//	Kleiner Glasses, Side, Black Mesa: Source
-//	Texture @ BM:S
+//	Kleiner Glasses, Front, HL2
+//	Texture @ HL2
 //	Shaders @ Reverend V92
-//	Update: 2017/03/30
+//	Created: 2017/03/30
+//	Update: 2018/07/14
 
 VertexLitGeneric
 {
@@ -14,6 +15,7 @@ VertexLitGeneric
 	$ambientocclusion 1
 	$additive 0
 	$translucent 1
+	$nocull  1
 
 	$phong 1
 	$phongboost 0.5
@@ -27,5 +29,19 @@ VertexLitGeneric
 	$detailscale 1
 	$detailblendfactor  0.7
 	$detailblendmode 0
+
+	$proxytoggle 1
+	Proxies
+	{
+
+		Equals
+		{
+
+			srcVar1 $proxytoggle // Disable Proxies
+			resultVar $color // The shader parameter to be manipulated
+
+		}
+
+	}
 
 }

@@ -12,8 +12,8 @@ $include base_female/bodygroups_female_hands_white.qci
 // $bodygroup Headwear
 // {
 	// blank
-	// studio base_female/headwear/beanie_01_blue
-	// studio base_female/headwear/beanie_01_brown
+	// studio base_female/headwear/beanie_06_blue
+	// studio base_female/headwear/beanie_06_brown
 // }
 
 $bodygroup Eyewear
